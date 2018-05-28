@@ -193,7 +193,7 @@ div[class^="bgimg-"] {
     }
 
     .contact-us-info span + a {
-        display: block;
+        display: table;
     }
 
     .contact-us-info a {
