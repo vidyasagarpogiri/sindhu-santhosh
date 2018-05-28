@@ -66,6 +66,18 @@ div[class^="bgimg-"] {
     background-image: url("assets/img/sns15.jpg");
 }
 
+.bgimg-6 {
+    background-image: url("assets/img/sns1.jpg");
+}
+
+.bgimg-7 {
+    background-image: url("assets/img/sns13.jpg");
+}
+
+.bgimg-8 {
+    background-image: url("assets/img/sns3.jpg");
+}
+
 .caption {
     position: absolute;
     left: 0;
