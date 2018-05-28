@@ -1,0 +1,186 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 16px/1.8 Apple Chancery;
+    font-family: Apple Chancery;
+    letter-spacing: 2px;
+    color: #777;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.pad-bottom {
+    padding-bottom: 20px; 
+}
+
+.parallax-card {
+    min-height: 100%;
+    display: block;
+}
+
+div[class^="bgimg-"] {
+    min-height: 100vh;
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("assets/img/sns7.jpg");
+}
+
+.bgimg-2 {
+    background-image: url("assets/img/sns5.jpg");
+}
+
+.bgimg-3 {
+    background-image: url("assets/img/sns10.jpg");
+}
+
+.bgimg-4 {
+    background-image: url("assets/img/sns8.jpg");
+}
+
+.bgimg-5 {
+    background-image: url("assets/img/sns15.jpg");
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:#fafad2;
+}
+
+.caption.pos-center {
+    bottom: 50%;
+}
+
+.caption .border {
+    color:#fafad2;
+    background-color:maroon;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    display: inline-block
+}
+
+.caption.caption-small .border {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.wed-date {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.template-info {
+    position: relative;
+}
+
+.template-info-theme {
+    color:#fafad2;
+    background-color:maroon;
+    text-align:center;
+    padding:20px 40px;
+    text-align: left;
+}
+
+.center-heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 125px;
+    height: 125px;
+    max-width: 100%;
+}
+
+.group-img {
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+}
+
+.contact-us-info a {
+    color: #fafda1;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.wed-btn {
+    color: #fafda1;
+    background-color: #3379c2;
+    font-weight: 600;
+}
+
+.btn-center {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+}
+
+.wed-btn:hover {
+    color: #fafda1;
+    background-color: #3379c2;
+    opacity: 0.8
+}
+
+.wed-address iframe {
+    max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+    div[class^="bgimg-"] {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 16px;
+    }
+
+    .bgimg-5 {
+        background-image: url("../assets/img/sns15_m.jpg");
+    }
+
+    .caption .border {
+        font-size: 14px;
+        padding: 10px;
+        letter-spacing: 5px;
+    }
+
+    .wed-address {
+        margin-top: 20px; 
+    }
+
+    .contact-us-info a {
+        font-size: 18px;
+    }
+}
