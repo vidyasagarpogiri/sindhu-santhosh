@@ -173,16 +173,22 @@ div[class^="bgimg-"] {
     max-height: 500px;
 }
 
-.bg-wed .card {
+.bg-wed .card,
+.bg-wed .card-body {
     background-color: rgb(128,0,0,0.8);
     color: rgba(250, 253, 161, 0.8);
     border: 1px solid rgba(250, 253, 161, 0.8);
+    padding: 0;
 }
 
 .bg-wed .card-header {
     color:rgb(128,0,0);
     background-color: rgba(250, 253, 161, 0.8);
     border-bottom-color: rgb(128,0,0,0.8);
+}
+
+.bg-wed .card-header .btn {
+    padding: 0;
 }
 
 @media (max-width: 1024px) {
@@ -194,7 +200,7 @@ div[class^="bgimg-"] {
         width: auto;
         height: auto;
         margin: auto;
-        max-width: 70%;
+        max-width: 75%;
     }
 }
 
@@ -238,5 +244,6 @@ div[class^="bgimg-"] {
         width: 100%;
         height: auto;
         margin: auto;
+        max-width: 100%;
     }
 }
