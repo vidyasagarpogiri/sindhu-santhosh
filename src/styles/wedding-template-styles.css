@@ -191,6 +191,21 @@ div[class^="bgimg-"] {
     padding: 0;
 }
 
+.wedding-gallery .light-gallery {
+    margin-bottom: 3rem;
+}
+
+.wedding-gallery .light-gallery img {
+    margin: 5px auto;
+    float: none;
+    display: block;
+}
+
+.wedding-template .wedding-gallery-heading {
+    border-bottom: 1px solid rgba(250, 253, 161, 0.8);
+    margin-top: 2rem;
+}
+
 @media (max-width: 1024px) {
     div[class^="bgimg-"] {
         background-attachment: scroll;

@@ -65,6 +65,8 @@
 
 .wedding-template .breadcrumb {
     background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .wedding-template .breadcrumb-item.active {
