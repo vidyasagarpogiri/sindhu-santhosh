@@ -262,3 +262,9 @@ div[class^="bgimg-"] {
         max-width: 100%;
     }
 }
+
+@media (min-width: 1200px) {
+    .wedding-gallery .light-gallery a {
+        flex: 0 0 20%;
+    }
+}
