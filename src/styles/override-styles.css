@@ -1,3 +1,9 @@
+.wedding-template .btn-secondary {
+    background-color: rgba(128,0,0,0.8);
+    color: rgb(250, 253, 161);
+    border-color: rgb(250, 253, 161);
+}
+
 .wedding-template .navbar-brand {
     color: #fafda1;
     font-weight: 800;
