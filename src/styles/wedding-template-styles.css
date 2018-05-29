@@ -1,0 +1,197 @@
+.parallax-card {
+    min-height: 100%;
+    display: block;
+}
+
+div[class^="bgimg-"] {
+    min-height: 100vh;
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-wed {
+    background-color: rgb(128,0,0);
+    color: rgb(250, 253, 161);
+    padding: 20px 30px;
+}
+
+.bg-wed a {
+    color: #fafda1;
+}
+
+.bg-wed a:hover,
+.bg-wed a:hover, {
+    color: #fafda1;
+    opacity: 0.8;
+}
+
+.bgimg-1 {
+    background-image: url("../../assets/img/sns7.jpg");
+}
+
+.bgimg-2 {
+    background-image: url("../../assets/img/sns5.jpg");
+}
+
+.bgimg-3 {
+    background-image: url("../../assets/img/sns10.jpg");
+}
+
+.bgimg-4 {
+    background-image: url("../../assets/img/sns8.jpg");
+}
+
+.bgimg-5 {
+    background-image: url("../../assets/img/sns15.jpg");
+}
+
+.bgimg-6 {
+    background-image: url("../../assets/img/sns1.jpg");
+}
+
+.bgimg-7 {
+    background-image: url("../../assets/img/sns13.jpg");
+}
+
+.bgimg-8 {
+    background-image: url("../../assets/img/sns3.jpg");
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:#fafad2;
+}
+
+.caption.pos-center {
+    bottom: 50%;
+}
+
+.caption .border {
+    color:#fafad2;
+    background-color:#800000;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    display: inline-block
+}
+
+.caption.caption-small .border {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.wed-date {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.template-info {
+    position: relative;
+}
+
+.template-info-theme {
+    color:#fafad2;
+    background-color:#800000;
+    text-align:center;
+    padding:20px 30px;
+    text-align: left;
+}
+
+.profile-img {
+    width: 125px;
+    height: 125px;
+    max-width: 100%;
+}
+
+.group-img {
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+}
+
+.contact-us-info a {
+    color: #fafda1;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.wed-bg-nav {
+    background-color: rgb(128,0,0);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid rgba(250, 253, 161, 0.8);
+}
+
+.wed-btn {
+    color: #fafda1;
+    background-color: #3379c2;
+    font-weight: 600;
+}
+
+.wed-btn:hover {
+    color: #fafda1;
+    background-color: #3379c2;
+    opacity: 0.8
+}
+
+.wed-address iframe {
+    max-width: 100%;
+}
+
+.wedding-template video {
+    width: 75%;
+    margin: 10px auto;
+    float: none;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    div[class^="bgimg-"] {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 16px;
+    }
+
+    .bgimg-5 {
+        background-image: url("../../assets/img/sns15_m.jpg");
+    }
+
+    .caption .border {
+        font-size: 14px;
+        padding: 10px;
+        letter-spacing: 5px;
+    }
+
+    .wed-address {
+        margin-top: 20px; 
+    }
+
+    .contact-us-info p {
+        margin-bottom: 10px;
+        line-height: 1.3;
+    }
+
+    .contact-us-info span + a {
+        display: table;
+    }
+
+    .contact-us-info a {
+        font-size: 18px;
+    }
+
+    .wedding-template video {
+        width: 100%;
+    }
+}

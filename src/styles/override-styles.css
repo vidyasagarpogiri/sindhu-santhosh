@@ -53,9 +53,39 @@
     transform: scale(0.8);
 }
 
+.wedding-template .breadcrumb-nav {
+    margin-top: 55px;
+}
+
+.wedding-template .breadcrumb {
+    background-color: transparent;
+}
+
+.wedding-template .breadcrumb-item.active {
+    color: rgb(250, 253, 161,0.7);
+    text-decoration: underline;
+}
+
+.wedding-template .alert-warning {
+    color: #800000;
+    background-color: rgba(250, 253, 161, 0.8);
+}
+    
+.wedding-template .alert-warning .alert-link {
+    font-size: 20px;
+}
+
+.wedding-template .alert-warning hr {
+    border-top-color: rgb(128,0,0,0.8);
+}
+
 @media (max-width: 991px) {
     .wedding-template .navbar-brand {
         margin-right: 0;
         font-size: 14px;
+    }
+
+    .wedding-template .alert-warning .alert-link {
+        font-size: 18px;
     }
 }
